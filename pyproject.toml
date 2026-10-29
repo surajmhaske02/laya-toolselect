@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "laya-toolselect"
+version = "0.1.0"
+description = "Show an LLM only the tools it needs: fast hybrid tool retrieval with an optional Laya judge"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+keywords = ["llm", "agents", "tool-calling", "function-calling", "mcp", "retrieval", "laya", "rag"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = ["numpy>=1.24"]
+authors = [{name = "suraj Mhaske"}]
+
+[project.urls]
+Homepage = "https://github.com/surajmhaske02/laya-toolselect"
+Repository = "https://github.com/surajmhaske02/laya-toolselect"
+Issues = "https://github.com/surajmhaske02/laya-toolselect/issues"
+
+[project.optional-dependencies]
+semantic = ["wordllama>=0.4,<0.5"]
+laya = ["laya>=0.4.17"]
+st = ["sentence-transformers>=3"]
+all = ["wordllama>=0.4,<0.5", "laya>=0.4.17"]
+dev = ["pytest>=7", "wordllama>=0.4,<0.5", "build"]
+
+[project.scripts]
+laya-toolselect = "laya_toolselect.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
