@@ -1,0 +1,23 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 330' font-family='-apple-system,Segoe UI,Helvetica,Arial,sans-serif'>
+<rect width='760' height='330' fill='white'/>
+<text x='40' y='36' font-size='19' font-weight='600' fill='#1f2328'>The right tool reaches the LLM far more often</text>
+<text x='40' y='60' font-size='13' fill='#59636e'>Share of requests whose correct tool is among the 5 tools sent (held-out test sets)</text>
+<line x1='40' x2='740' y1='280' y2='280' stroke='#9aa0a6'/>
+<rect x='44' y='179.4' width='104' height='100.6' rx='3' fill='#c9cdd2'/>
+<text x='96.0' y='171.4' text-anchor='middle' font-size='15' font-weight='600' fill='#1f2328'>53%</text>
+<text x='96.0' y='298' text-anchor='middle' font-size='11.5' fill='#59636e'>Plain keyword search</text>
+<rect x='166' y='136.7' width='104' height='143.3' rx='3' fill='#2f6fdb'/>
+<text x='218.0' y='128.7' text-anchor='middle' font-size='15' font-weight='600' fill='#1f2328'>75%</text>
+<text x='218.0' y='298' text-anchor='middle' font-size='11.5' fill='#59636e'>laya-toolselect</text>
+<rect x='288' y='106.3' width='104' height='173.7' rx='3' fill='#173f8a'/>
+<text x='340.0' y='98.3' text-anchor='middle' font-size='15' font-weight='600' fill='#1f2328'>91%</text>
+<text x='340.0' y='298' text-anchor='middle' font-size='11.5' fill='#59636e'>+ learned usage</text>
+<text x='218.0' y='320' text-anchor='middle' font-size='13' font-weight='600' fill='#1f2328'>MetaTool · 199 tools</text>
+<rect x='450' y='150.8' width='104' height='129.2' rx='3' fill='#c9cdd2'/>
+<text x='502.0' y='142.8' text-anchor='middle' font-size='15' font-weight='600' fill='#1f2328'>68%</text>
+<text x='502.0' y='298' text-anchor='middle' font-size='11.5' fill='#59636e'>Plain keyword search</text>
+<rect x='572' y='114.7' width='104' height='165.3' rx='3' fill='#2f6fdb'/>
+<text x='624.0' y='106.7' text-anchor='middle' font-size='15' font-weight='600' fill='#1f2328'>87%</text>
+<text x='624.0' y='298' text-anchor='middle' font-size='11.5' fill='#59636e'>laya-toolselect</text>
+<text x='563.0' y='320' text-anchor='middle' font-size='13' font-weight='600' fill='#1f2328'>BFCL · 1,096 tools</text>
+</svg>

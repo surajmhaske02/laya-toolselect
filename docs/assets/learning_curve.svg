@@ -1,0 +1,40 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 340' font-family='-apple-system,Segoe UI,Helvetica,Arial,sans-serif'>
+<rect width='760' height='340' fill='white'/>
+<text x='30' y='34' font-size='19' font-weight='600' fill='#1f2328'>Learning from past requests: 75% → 91%</text>
+<text x='30' y='58' font-size='13' fill='#59636e'>MetaTool test set: right tool among the 5 sent, after selector.learn() on N past requests per tool</text>
+<line x1='70' x2='520' y1='290.0' y2='290.0' stroke='#e6e8eb'/>
+<text x='60' y='294.0' text-anchor='end' font-size='12' fill='#59636e'>50%</text>
+<line x1='70' x2='520' y1='248.0' y2='248.0' stroke='#e6e8eb'/>
+<text x='60' y='252.0' text-anchor='end' font-size='12' fill='#59636e'>60%</text>
+<line x1='70' x2='520' y1='206.0' y2='206.0' stroke='#e6e8eb'/>
+<text x='60' y='210.0' text-anchor='end' font-size='12' fill='#59636e'>70%</text>
+<line x1='70' x2='520' y1='164.0' y2='164.0' stroke='#e6e8eb'/>
+<text x='60' y='168.0' text-anchor='end' font-size='12' fill='#59636e'>80%</text>
+<line x1='70' x2='520' y1='122.0' y2='122.0' stroke='#e6e8eb'/>
+<text x='60' y='126.0' text-anchor='end' font-size='12' fill='#59636e'>90%</text>
+<line x1='70' x2='520' y1='80.0' y2='80.0' stroke='#e6e8eb'/>
+<text x='60' y='84.0' text-anchor='end' font-size='12' fill='#59636e'>100%</text>
+<text x='70.0' y='312' text-anchor='middle' font-size='12' fill='#59636e'>none</text>
+<text x='220.0' y='312' text-anchor='middle' font-size='12' fill='#59636e'>5</text>
+<text x='370.0' y='312' text-anchor='middle' font-size='12' fill='#59636e'>20</text>
+<text x='520.0' y='312' text-anchor='middle' font-size='12' fill='#59636e'>50</text>
+<text x='295.0' y='334' text-anchor='middle' font-size='12.5' fill='#59636e'>Past requests learned per tool</text>
+<polyline points='70.0,236.9 220.0,170.3 370.0,136.5 520.0,119.5' fill='none' stroke='#9aa0a6' stroke-width='2'/>
+<circle cx='70.0' cy='236.9' r='3.5' fill='#9aa0a6'/>
+<circle cx='220.0' cy='170.3' r='3.5' fill='#9aa0a6'/>
+<circle cx='370.0' cy='136.5' r='3.5' fill='#9aa0a6'/>
+<circle cx='520.0' cy='119.5' r='3.5' fill='#9aa0a6'/>
+<polyline points='70.0,191.5 220.0,169.7 370.0,147.6 520.0,134.0' fill='none' stroke='#9aa0a6' stroke-width='2' stroke-dasharray='5 4'/>
+<circle cx='70.0' cy='191.5' r='3.5' fill='#9aa0a6'/>
+<circle cx='220.0' cy='169.7' r='3.5' fill='#9aa0a6'/>
+<circle cx='370.0' cy='147.6' r='3.5' fill='#9aa0a6'/>
+<circle cx='520.0' cy='134.0' r='3.5' fill='#9aa0a6'/>
+<polyline points='70.0,183.3 220.0,151.2 370.0,128.7 520.0,116.1' fill='none' stroke='#2f6fdb' stroke-width='3.5'/>
+<circle cx='70.0' cy='183.3' r='4.5' fill='#2f6fdb'/>
+<circle cx='220.0' cy='151.2' r='4.5' fill='#2f6fdb'/>
+<circle cx='370.0' cy='128.7' r='4.5' fill='#2f6fdb'/>
+<circle cx='520.0' cy='116.1' r='4.5' fill='#2f6fdb'/>
+<text x='534' y='120.1' font-size='13' font-weight='600' fill='#2f6fdb'>laya-toolselect (hybrid) 91.4%</text>
+<text x='534' y='140.1' font-size='13' font-weight='400' fill='#59636e'>Keyword (BM25) 90.6%</text>
+<text x='534' y='160.1' font-size='13' font-weight='400' fill='#59636e'>Semantic 87.2%</text>
+</svg>
